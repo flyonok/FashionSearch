@@ -3,7 +3,8 @@ import scrapy
 from fashionWebScraping.items import FashionwebscrapingItem
 from fashionWebScraping.items import ImgData
 
-from scrapy.http import JSONRequest
+# from scrapy.http import JSONRequest
+from scrapy.http import Request
 
 import json
 
@@ -36,7 +37,8 @@ class FashionlcwaikikiSpider(scrapy.Spider):
 					print(link_url)
 
 					#Pass the each link containing 100 products, to parse_product_pages function with the gender metadata
-					request=JSONRequest(link_url, callback=self.parse_product_pages, meta={'gender': row['gender']})
+					# request=JSONRequest(link_url, callback=self.parse_product_pages, meta={'gender': row['gender']})
+					request=Request(link_url, callback=self.parse_product_pages, meta={'gender': row['gender']})
 		
 					yield request
 
