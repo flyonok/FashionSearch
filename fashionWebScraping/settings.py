@@ -72,7 +72,7 @@ DEFAULT_REQUEST_HEADERS = {
 #    'fashionWebScraping.pipelines.FashionwebscrapingPipeline': 300,
 #}
 ITEM_PIPELINES = {'scrapy.pipelines.images.ImagesPipeline': 1}
-IMAGES_STORE = '/Users/erdemisbilen/Angular/fashionWebScraping/images_scraped'
+IMAGES_STORE = '/root/deepstack/github/FashionSearch/fashionWebScraping/images_scraped'
 
 
 # Enable and configure the AutoThrottle extension (disabled by default)

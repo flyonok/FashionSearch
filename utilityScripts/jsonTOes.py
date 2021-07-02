@@ -193,12 +193,12 @@ if __name__ == '__main__':
     root.set('xmlns', 'http://www.sitemaps.org/schemas/sitemap/0.9')
     ### Site Map Generapor #######
 
-    with open("/Users/erdemisbilen/Angular/fashionWebScraping/csvFiles/jsonFiles.csv", newline=None) as f:
+    with open("/root/deepstack/github/FashionSearch/fashionWebScraping/csvFiles/jsonFiles.csv", newline=None) as f:
             reader=csv.DictReader(f)
         
             for row in reader:
 
-                jsonFile="/Users/erdemisbilen/Angular/fashionWebScraping/jsonFiles/"+row['file_name_final']
+                jsonFile="/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/"+row['file_name_final']
 
 
                 with open(jsonFile) as json_file:  

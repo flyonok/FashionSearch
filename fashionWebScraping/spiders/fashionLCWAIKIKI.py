@@ -19,7 +19,7 @@ class FashionlcwaikikiSpider(scrapy.Spider):
 	def start_requests(self):
 
 		# Read main category links from a csv file		
-		with open("/Users/erdemisbilen/Angular/fashionWebScraping/csvFiles/SpiderMainCategoryLinksLCWAIKIKI.csv", "rU") as f:
+		with open("/root/deepstack/github/FashionSearch/fashionWebScraping/csvFiles/SpiderMainCategoryLinksLCWAIKIKI.csv", "rU") as f:
 			reader=csv.DictReader(f)
 		
 			for row in reader:

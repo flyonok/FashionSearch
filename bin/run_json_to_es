@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /Users/erdemisbilen/Angular/fashionWebScraping/utilityScripts
+cd /root/deepstack/github/FashionSearch/fashionWebScraping/utilityScripts
 echo Utility Scripts Klasorune Giris Yapıldı
 python jsonToes.py
