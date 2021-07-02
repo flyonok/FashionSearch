@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping
+cd /root/deepstack/github/FashionSearch/fashionWebScraping
 echo BOYNER SPIDER START
 scrapy crawl -o rawdata_BOYNER.json -t jsonlines fashionBOYNER

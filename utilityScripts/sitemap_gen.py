@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import csv
 from xml.etree.ElementTree import Element, SubElement, Comment, tostring
 import datetime

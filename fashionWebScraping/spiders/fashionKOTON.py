@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import scrapy
 from fashionWebScraping.items import FashionwebscrapingItem
 from fashionWebScraping.items import ImgData

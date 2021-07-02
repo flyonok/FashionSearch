@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 import scrapy
 from scrapy.item import Item, Field
 
