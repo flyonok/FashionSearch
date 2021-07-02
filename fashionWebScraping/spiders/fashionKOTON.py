@@ -15,7 +15,7 @@ class FashionkotonSpider(scrapy.Spider):
 
 	def start_requests(self):
 
-		with open("/root/deepstack/github/FashionSearch/fashionWebScraping/csvFiles/SpiderMainCategoryLinksKOTON.csv", "rU") as f:
+		with open("/root/deepstack/github/FashionSearch/csvFiles/SpiderMainCategoryLinksKOTON.csv", "rU") as f:
 			reader=csv.DictReader(f)
 		
 			for row in reader:

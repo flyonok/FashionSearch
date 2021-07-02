@@ -5,7 +5,7 @@ from collections import OrderedDict
 import csv
 import os
 
-with open("/root/deepstack/github/FashionSearch/fashionWebScraping/csvFiles/deleteJsonFiles.csv", "rU") as f:
+with open("/root/deepstack/github/FashionSearch/csvFiles/deleteJsonFiles.csv", "rU") as f:
 	reader=csv.DictReader(f)
         
 	for row in reader:

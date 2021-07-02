@@ -5,7 +5,7 @@ from collections import OrderedDict
 import csv
 import os
 
-with open("/root/deepstack/github/FashionSearch/fashionWebScraping/csvFiles/jsonFiles.csv", newline=None) as f:
+with open("/root/deepstack/github/FashionSearch/csvFiles/jsonFiles.csv", newline=None) as f:
 	reader=csv.DictReader(f)
         
 	for row in reader:
@@ -31,8 +31,8 @@ with open("/root/deepstack/github/FashionSearch/fashionWebScraping/csvFiles/json
 
 			baseFileName=os.path.splitext(jsonFile)[0]
 
-			with open('/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/'+row['file_name_final'], 'w') as out:
+			with open('/root/deepstack/github/FashionSearch/jsonFiles/'+row['file_name_final'], 'w') as out:
 				json.dump(list(seen.values()), out)
 
-			with open('/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/'+'DELETED'+row['file_name_final'], 'w') as out:
+			with open('/root/deepstack/github/FashionSearch/jsonFiles/'+'DELETED'+row['file_name_final'], 'w') as out:
 				json.dump(list(dubs.values()), out)
