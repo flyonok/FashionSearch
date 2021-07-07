@@ -6,37 +6,36 @@ import csv
 import os
 
 with open("/root/deepstack/github/FashionSearch/csvFiles/jsonFiles.csv", "rU") as f:
-	reader=csv.DictReader(f)
-        
-	for row in reader:
+    reader = csv.DictReader(f)
 
-		jsonFile=row['jsonFile_raw']
+    for row in reader:
 
-		with open(jsonFile) as json_file:
+        jsonFile = row['jsonFile_raw']
 
-			data = []
-			i = 0
+        with open(jsonFile) as json_file:
 
-			seen = OrderedDict()
+            data = []
+            i = 0
 
+            seen = OrderedDict()
 
-			for d in json_file:			
-				
-				seen = json.loads(d)
-				
-				try:
-					if seen["productId"] != None:
-						for key, value in seen.items(): 
-							print("ok") 
+            for d in json_file:
 
-					i = i + 1			
-					data.append(json.loads(d))
-				
-				except KeyError:
-					print("nok")
-								
-			print (i)	
-			baseFileName=os.path.splitext(jsonFile)[0]
+                seen = json.loads(d)
 
-			with open('/root/deepstack/github/FashionSearch/jsonFiles/'+row['file_name_prep'], 'w') as out:
-				json.dump(data, out)
+                try:
+                    if seen["productId"] != None:
+                        for key, value in seen.items():
+                            print("ok")
+
+                    i = i + 1
+                    data.append(json.loads(d))
+
+                except KeyError:
+                    print("nok")
+
+            print(i)
+            baseFileName = os.path.splitext(jsonFile)[0]
+
+            with open('/root/deepstack/github/FashionSearch/jsonFiles/'+row['file_name_prep'], 'w') as out:
+                json.dump(data, out)
