@@ -1,14 +1,14 @@
 jsonFile_raw,jsonFile_prep,file_name_prep,file_name_final
-/root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping/rawdata_LCWAIKIKI.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_LCWAIKIKI.json,prepdata_LCWAIKIKI.json,finaldata_LCWAIKIKI.json
-/root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping/rawdata_DERIMOD.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_DERIMOD.json,prepdata_DERIMOD.json,finaldata_DERIMOD.json
-/root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping/rawdata_MUDO.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_MUDO.json,prepdata_MUDO.json,finaldata_MUDO.json
-/root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping/rawdata_YARGICI.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_YARGICI.json,prepdata_YARGICI.json,finaldata_YARGICI.json
-/root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping/rawdata_MODANISA.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_MODANISA.json,prepdata_MODANISA.json,finaldata_MODANISA.json
-/root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping/rawdata_MORHIPO.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_MORHIPO.json,prepdata_MORHIPO.json,finaldata_MORHIPO.json
-/root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping/rawdata_BOYNER.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_BOYNER.json,prepdata_BOYNER.json,finaldata_BOYNER.json
-/root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping/rawdata_TRENDYOL.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_TRENDYOL.json,prepdata_TRENDYOL.json,finaldata_TRENDYOL.json
-/root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping/rawdata_MATMAZEL.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_MATMAZEL.json,prepdata_MATMAZEL.json,finaldata_MATMAZEL.json
-/root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping/rawdata_HM.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_HM.json,prepdata_HM.json,finaldata_HM.json
-/root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping/rawdata_KOTON.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_KOTON.json,prepdata_KOTON.json,finaldata_KOTON.json
-/root/deepstack/github/FashionSearch/fashionWebScraping/fashionWebScraping/rawdata_HEPSIBURADA.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_HEPSIBURADA.json,prepdata_HEPSIBURADA.json,finaldata_HEPSIBURADA.json
+/root/deepstack/github/FashionSearch/fashionWebScraping/rawdata_LCWAIKIKI.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_LCWAIKIKI.json,prepdata_LCWAIKIKI.json,finaldata_LCWAIKIKI.json
+/root/deepstack/github/FashionSearch/fashionWebScraping/rawdata_DERIMOD.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_DERIMOD.json,prepdata_DERIMOD.json,finaldata_DERIMOD.json
+/root/deepstack/github/FashionSearch/fashionWebScraping/rawdata_MUDO.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_MUDO.json,prepdata_MUDO.json,finaldata_MUDO.json
+/root/deepstack/github/FashionSearch/fashionWebScraping/rawdata_YARGICI.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_YARGICI.json,prepdata_YARGICI.json,finaldata_YARGICI.json
+/root/deepstack/github/FashionSearch/fashionWebScraping/rawdata_MODANISA.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_MODANISA.json,prepdata_MODANISA.json,finaldata_MODANISA.json
+/root/deepstack/github/FashionSearch/fashionWebScraping/rawdata_MORHIPO.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_MORHIPO.json,prepdata_MORHIPO.json,finaldata_MORHIPO.json
+/root/deepstack/github/FashionSearch/fashionWebScraping/rawdata_BOYNER.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_BOYNER.json,prepdata_BOYNER.json,finaldata_BOYNER.json
+/root/deepstack/github/FashionSearch/fashionWebScraping/rawdata_TRENDYOL.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_TRENDYOL.json,prepdata_TRENDYOL.json,finaldata_TRENDYOL.json
+/root/deepstack/github/FashionSearch/fashionWebScraping/rawdata_MATMAZEL.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_MATMAZEL.json,prepdata_MATMAZEL.json,finaldata_MATMAZEL.json
+/root/deepstack/github/FashionSearch/fashionWebScraping/rawdata_HM.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_HM.json,prepdata_HM.json,finaldata_HM.json
+/root/deepstack/github/FashionSearch/fashionWebScraping/rawdata_KOTON.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_KOTON.json,prepdata_KOTON.json,finaldata_KOTON.json
+/root/deepstack/github/FashionSearch/fashionWebScraping/rawdata_HEPSIBURADA.json,/root/deepstack/github/FashionSearch/fashionWebScraping/jsonFiles/prepdata_HEPSIBURADA.json,prepdata_HEPSIBURADA.json,finaldata_HEPSIBURADA.json
 
